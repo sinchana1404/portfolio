@@ -1,0 +1,186 @@
+
+.about {
+  padding: 110px 8%;
+  background: #0c0c17;
+  color: #f5f5fa;
+}
+
+.about-heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-tag {
+  color: #a78bfa;
+  font-size: 13px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.about-heading h2 {
+  font-size: 42px;
+  margin-top: 12px;
+}
+
+.about-heading h2 span {
+  color: #a78bfa;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  max-width: 1150px;
+  margin: auto;
+}
+
+.about-text h3 {
+  font-size: 27px;
+  line-height: 1.4;
+  margin-bottom: 22px;
+}
+
+.about-text p {
+  color: #aaaabb;
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 18px;
+}
+
+.about-location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #a78bfa;
+  margin-top: 25px;
+}
+
+.about-details {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.about-card {
+  display: flex;
+  gap: 20px;
+  padding: 28px;
+  border: 1px solid #29283d;
+  border-radius: 15px;
+  background: #121221;
+  transition: 0.3s ease;
+}
+
+.about-card:hover {
+  border-color: #8b5cf6;
+  transform: translateY(-5px);
+}
+
+.about-card > svg {
+  color: #a78bfa;
+  flex-shrink: 0;
+}
+
+.about-card h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  color: #eeeef5;
+  margin-bottom: 8px;
+}
+
+.about-card span {
+  display: block;
+  color: #9999ad;
+  font-size: 13px;
+  line-height: 1.7;
+  margin-top: 4px;
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 80px 6%;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .about-heading h2 {
+    font-size: 34px;
+  }
+
+  .about-text h3 {
+    font-size: 23px;
+  }
+}
+
+/* Tablet Responsive */
+@media (max-width: 768px) {
+  .about {
+    padding: 80px 6%;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .about-heading {
+    margin-bottom: 40px;
+  }
+
+  .about-heading h2 {
+    font-size: 34px;
+  }
+
+  .about-text h3 {
+    font-size: 23px;
+  }
+
+  .about-text p {
+    font-size: 14px;
+  }
+
+  .about-card {
+    padding: 22px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .about {
+    padding: 65px 5%;
+  }
+
+  .about-heading h2 {
+    font-size: 30px;
+  }
+
+  .about-text h3 {
+    font-size: 21px;
+  }
+
+  .about-card {
+    gap: 13px;
+    padding: 18px;
+  }
+
+  .about-card h4 {
+    font-size: 16px;
+  }
+
+  .about-card p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .about-card span {
+    font-size: 12px;
+    overflow-wrap: anywhere;
+  }
+}

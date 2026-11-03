@@ -1,0 +1,137 @@
+
+.footer {
+  background: #0c0c17;
+  color: #f5f5fa;
+  padding: 45px 8% 20px;
+  border-top: 1px solid #29283d;
+}
+
+.footer-content {
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 35px;
+}
+
+.footer-logo {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-logo span {
+  color: #a78bfa;
+}
+
+.footer-content > p {
+  color: #9999ad;
+  font-size: 13px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #34334a;
+  border-radius: 50%;
+  color: #c4b5fd;
+  transition: 0.3s;
+}
+
+.footer-socials a:hover {
+  background: #6d43c5;
+  color: white;
+  border-color: #8b5cf6;
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  max-width: 1150px;
+  margin: auto;
+  padding-top: 20px;
+  border-top: 1px solid #29283d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  color: #88889b;
+  font-size: 12px;
+}
+
+.back-to-top {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #c4b5fd;
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Tablet Responsive */
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 6% 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 18px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .footer {
+    padding: 35px 5% 20px;
+  }
+
+  .footer-logo {
+    font-size: 23px;
+  }
+
+  .footer-content > p {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  .footer-bottom {
+    font-size: 11px;
+  }
+
+  .back-to-top {
+    font-size: 12px;
+  }
+}
